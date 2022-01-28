@@ -1,9 +1,10 @@
-﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
-<modDesc descVersion="62">
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="63">
     <author>Balu</author>
 	<title>
 		<en>Realistic Steering</en>
 		<de>Realistic Steering</de>
+		<ru>Реалистичное рулевое управление</ru>
 	</title>
 	<description>
 		<en>
@@ -18,6 +19,13 @@ Auf diese Art lässt sich ein Traktor wesentlich sensibler lenken was zu einem s
 Die Parameter können bequem über ein Ingame Menü an das persönliche Fahrgefühl angepasst werden.
 ]]>
 	   </de>
+		<ru>
+<![CDATA[Этот мод регулирует скорость и угол поворота руля транспортного средства в зависимости от текущей скорости.
+Таким образом, транспорт будет более чувствительным к управлению, что приводит к более стабильному вождению и более реалистичному ощущению.
+Параметры можно настроить по своему вкусу в настройках мода.
+Для использования с клавиатурой и геймпадом. Не используйте этот мод при вождении с компьютерным рулём, так как скорость рулевого управления будет отставать от реального движения. 
+]]>
+	    </ru>
 	</description>
 	
     <version>1.0.0.0</version>
@@ -27,16 +35,16 @@ Die Parameter können bequem über ein Ingame Menü an das persönliche Fahrgef�
 	<iconFilename>store.dds</iconFilename>
 
 	<l10n>
-		<text name="input_RealisticSteering_Toggle">	<en>RealisticSteering: On/Off</en>  												<de>RealisticSteering: An/Aus</de>												</text>
-		<text name="input_RealisticSteering_Settings">	<en>RealisticSteering: Open Settings</en>  											<de>RealisticSteering: Einstellungen öffnen</de>								</text>
-		<text name="gui_rs_Setting">					<en>Realistic Steering - Settings</en>  											<de>Realistic Steering - Einstellungen</de>										</text>
-		<text name="gui_rs_SteeringSpeedToolTip">		<en>Steering Speed reduction - at 50km/h</en>  										<de>Reduktion der Lenkgeschwindigkeit - bei 50km/h</de>							</text>
-		<text name="gui_rs_SteeringSpeed">				<en>Steering Speed reduction</en>  													<de>Reduktion Lenkgeschwindigkeit</de>											</text>
-		<text name="gui_rs_SteeringAngleLimitToolTip">	<en>Steering angle reduction - at 50km/h</en> 										<de>Maximale Lenkwinkelbegrenzung - bei 50km/h</de>								</text>
-		<text name="gui_rs_SteeringAngleLimit">			<en>Steering angle reduction</en>  													<de>Maximale Lenkwinkelbegrenzung</de>											</text>
-		<text name="gui_rs_ResetForceToolTip">			<en>Select the speed addition when returning the wheel to the center position</en> 	<de>Die Verstärkung die wirkt, wenn der Lenkwinkel wieder zentriert wird</de>	</text>
-		<text name="button_reset">						<en>Reset</en>  																	<de>Reset</de>																	</text>
-		<text name="gui_rs_ResetForce">					<en>Reset Force</en>  																<de>Rückstellkraft Faktor</de>													</text>
+		<text name="input_RealisticSteering_Toggle">	<en>RealisticSteering: On/Off</en>  												<ru>RealisticSteering: Вкл/Выкл</ru>                                        <de>RealisticSteering: An/Aus</de>												</text>
+		<text name="input_RealisticSteering_Settings">	<en>RealisticSteering: Open Settings</en>  											<ru>RealisticSteering: Открыть Настройки</ru>                               <de>RealisticSteering: Einstellungen öffnen</de>								</text>
+		<text name="gui_rs_Setting">					<en>Realistic Steering - Settings</en>  											<ru>Realistic Steering - Настройки</ru>                                     <de>Realistic Steering - Einstellungen</de>										</text>
+		<text name="gui_rs_SteeringSpeedToolTip">		<en>Steering Speed reduction - at 50km/h</en>  										<ru>Снижение скорости рулевого управления - при 50 км/ч</ru>                <de>Reduktion der Lenkgeschwindigkeit - bei 50km/h</de>							</text>
+		<text name="gui_rs_SteeringSpeed">				<en>Steering Speed reduction</en>  													<ru>Снижен. скорости рулевого управления</ru>                               <de>Reduktion Lenkgeschwindigkeit</de>											</text>
+		<text name="gui_rs_SteeringAngleLimitToolTip">	<en>Steering angle reduction - at 50km/h</en> 										<ru>Уменьшение угла поворота рулевого колеса - при 50 км/ч</ru>             <de>Maximale Lenkwinkelbegrenzung - bei 50km/h</de>								</text>
+		<text name="gui_rs_SteeringAngleLimit">			<en>Steering angle reduction</en>  													<ru>Уменьшение угла поворота рул. колеса</ru>                               <de>Maximale Lenkwinkelbegrenzung</de>											</text>
+		<text name="gui_rs_ResetForceToolTip">			<en>Select the speed addition when returning the wheel to the center position</en> 	<ru>Добавление скорости при возврате руля в центральное положение</ru> 	    <de>Die Verstärkung die wirkt, wenn der Lenkwinkel wieder zentriert wird</de>	</text>
+		<text name="button_reset">						<en>Reset</en>  																	<ru>Сброс</ru>                                                              <de>Reset</de>																	</text>
+		<text name="gui_rs_ResetForce">					<en>Reset Force</en>  																<ru>Скорость сброса</ru>                                                    <de>Rückstellkraft Faktor</de>													</text>
 	</l10n>
 
     <extraSourceFiles>
