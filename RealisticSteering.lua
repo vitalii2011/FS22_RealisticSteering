@@ -27,7 +27,7 @@ RealisticSteering.angleLimitIndex = 8;
 RealisticSteering.resetForceIndex = 6;
 
 RealisticSteering.directory = g_currentModDirectory;
-RealisticSteering.confDirectory = getUserProfileAppPath().. "modsSettings/FS22_RealisticSteering/"; 
+RealisticSteering.confDirectory = getUserProfileAppPath().. "modSettings/FS22_RealisticSteering/"; 
 
 function RealisticSteering:prerequisitesPresent(specializations)
     return true;
@@ -240,7 +240,7 @@ function RealisticSteering:writeConfig()
 		return
 	end
 
-	createFolder(getUserProfileAppPath().. "modsSettings/");
+	createFolder(getUserProfileAppPath().. "modSettings/");
 	createFolder(RealisticSteering.confDirectory);
 
 	local file = RealisticSteering.confDirectory..myName..".xml"
